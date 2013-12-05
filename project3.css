@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+
+p{
+vertical-align: middle;
+}
+
+input{
+height: 21px;
+line-height: 21px;
+color:green;
+
+}
+
+/*form {
+max-width: 200px;
+margin: 0;
+padding: 0 5px;
+vertical-align: middle;
+}*/
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}

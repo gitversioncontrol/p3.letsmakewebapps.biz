@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="project3.css" type="text/css"> <!-- project 3 css-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <!-- Jquery API-->
 	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script> <!-- Jquery Validate plugin-->
@@ -17,7 +17,7 @@
 		
 		<form id="userForm">
 		You can figure out the duration required to reach your target goal using this tool.The bar-graph will show progress with duration chosen.
-		<p> Financial Goal: $<input  type="text" id="target" class="goal" name="Financial Goal"  maxlength ="10"  min="100"  required>  <span class="target"> </span> </p>
+		<p> Financial Goal: $<input  type="text" id="target" class="goal" name="Financial Goal"  maxlength ="10"   required>  <span class="target"> </span> </p>
 		<p> Investment Duration: <input type="number"  id="duration"  class="goal" name="Investment Duration"  min="1" max="100" required> year(s) <span class="duration"></span></p> 
 		<p> Amount Currently Invested:  $<input type="text"  id="principal"  class="goal" name="Amount Currently Invested" maxlength ="10" required><span class="principal"> </span> </p>
 		<p>             Monthly Contribution: $<input type="text"  id="contribution"  class="goal" name="Monthly Contribution" maxlength ="10" required> <span class="contribution"></span></p>

@@ -3,6 +3,7 @@
 
 p{
 vertical-align: left;
+
 }
 
 input{
@@ -12,43 +13,60 @@ color:green;
 
 }
 
-/*form {
-max-width: 200px;
+form {
+max-width: 1000px;
 margin: 0;
 padding: 0 5px;
 vertical-align: middle;
-}*/
-
-/*input:invalid {
-  box-shadow: 0 0 5px 1px red;
+float: left;
 }
 
-input:focus:invalid {
-  outline: none;
-}*/
-
-/*input:invalid { background-color: pink; color: white; }
-input:valid { background-color: white; color: black; }*/
-
-#divForGraph{
-float:bottom;
-position:absolute;
-right:0px;
-width:800px;
-background-color:#b0e0e6;
-width:100%; 
-height:100%; 
-border:1px solid black;
-}
 
 span{
 color:red;
 font-size: 10pt;
 }
 
-#output{
-color:blue;
 
+
+h1{
+background-color:#DEB887;
+border:2px solid black;
+width:100%;
+text-align: center;
+}
+
+
+body
+{
+margin:0;
+padding:0;
+width:100%;
+font-size: 12pt;
+
+}
+
+#output{
+color:#800000;
+float:right;
+margin-top:30px;
+margin-right:10px;
+position:relative;
+width:800px;
+font-size: 14pt;
+}
+
+
+#divForGraph{
+vertical-align: bottom;
+position:absolute;
+float: left;
+right:0px;
+width:800px;
+background-color:#DEB887;
+width:100%; 
+bottom:10px;
+border:2px solid black;
 }
 
 

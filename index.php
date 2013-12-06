@@ -18,11 +18,11 @@
 		<form id="userForm">
 		You can figure out the duration required to reach your target goal using this tool.The bar-graph will show progress with duration chosen.
 		<p> Financial Goal: $<input  type="text" id="target" class="goal" name="Financial Goal"  maxlength ="10"  min="100"  required> <span class="slider"> </span> <span class="target"> </span> </p>
-		<p> Investment Duration: <input type="number"  id="duration"  class="goal" name="Investment Duration"  maxlength ="3" min="1" max="100" required> year(s) <span class="duration"></p> 
+		<p> Investment Duration: <input type="number"  id="duration"  class="goal" name="Investment Duration"  maxlength ="3" min="1" max="100" required> year(s) <span class="duration"></span></p> 
 		<p> Amount Currently Invested:  $<input type="text"  id="principal"  class="goal" name="Amount Currently Invested" maxlength ="10" required><span class="principal"> </span> </p>
-		<p>             Monthly Contribution: $<input type="text"  id="contribution"  class="goal" name="Monthly Contribution" maxlength ="10" required> <span class="contribution"></p>
-		<p> Expected Annual Rate of Return: <input type="number"  id="rate"  class="goal" name="Expected Annual Rate of Return"  maxlength ="5" min="0.01" max="100"  step ="0.01" required>% <span class="rate"></p>
-		<p>                 Inflation Rate: <input type="number" id="inflation"  class="goal" name="Inflation Rate" maxlength ="5" min="0.01" max="100" step="0.01"  required>% <span class="inflation"></p>
+		<p>             Monthly Contribution: $<input type="text"  id="contribution"  class="goal" name="Monthly Contribution" maxlength ="10" required> <span class="contribution"></span></p>
+		<p> Expected Annual Rate of Return: <input type="number"  id="rate"  class="goal" name="Expected Annual Rate of Return"  maxlength ="5" min="0.01" max="100"  step ="0.01" required>% <span class="rate"></span></p>
+		<p>                 Inflation Rate: <input type="number" id="inflation"  class="goal" name="Inflation Rate" maxlength ="5" min="0.01" max="100" step="0.01"  required>% <span class="inflation"><span></p>
 		
 		<button>Calculate</button>
 		
